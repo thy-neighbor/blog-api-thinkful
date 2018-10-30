@@ -4,7 +4,8 @@
   "description": "CRUD API for a blogging platform",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha --exit"
   },
   "author": "Josue Resilien",
   "license": "ISC",
@@ -17,5 +18,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/thy-neighbor/blog-api-thinkful.git"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }

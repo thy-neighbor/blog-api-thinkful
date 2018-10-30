@@ -31,7 +31,7 @@ router.post('/',jsonParser,(req,res)=>{
     }
     
     const newPost=BlogPosts.create(currentItems.title,currentItems.content,currentItems.author,currentItems.publishDate);
-    res.status(204).json(newPost);
+    res.status(201).json(newPost);
 });
 
 router.delete('/:id',(req,res)=>{
