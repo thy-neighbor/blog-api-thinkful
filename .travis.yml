@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Y6is5c+xjyZAKVV33iAPO9icAa/bvGNwGr50pyVUkdZtTC+EQlpuNyD6VwTDXzZ3955JOucEhKzMKHKj29Nw6UkG2Ov+gVo8WajTzPhHCal5x9+fV83sSR5dBOAL495rI8gh8qik8CWYvEm2PYSce6lsvFlN88kOhWAj8DqChTUlx+ybuKbleHNVvsjsgnpSM4KzbnpGMKWhtqwxtOMw1+cOdURU1vVInluu9AOV31e3u4+MQxadfIghDrm4AVZZLCqasPGl26lcJZs+EBRP+OUNXuiS0EYfCTa9nfp1kx55r8EdAdAeEhe6dUDRdWWIPn2vd/5EmpXbvZQ+Bub/9xBBJvQdsr2V2krih5O/BPxwjW8NEocB0ZmFejo7u/M4gs+VZG6knEwAjx0Ig1OkpdvhVzybCBhjto+otDIcJFyMcggpGLblZUd+OD+U7Aox2H4JqjaHum8vY45Rr2FJnRVV4O0GVF2VSWcmcTRJs0PTUR8qN5RmhvEaDvMGEU33HCudj6yIXVJfBAskoIa5EbwzhWP70X4NZL+zipFybEsY4F5IlmNy5LAJpp0RYBq/dpA6yez7UYkSzCWTsEzRv9bZ7nyz7/VeMkgzbIe2IS3QEIM3pWOHQAZhDbrLjRjkVn6u05qcKsY8OWgeSb1HQZhzvQM5EJKPBDwo4ES0uys=
+  app: blog-api-thinkful
+  on:
+    repo: thy-neighbor/blog-api-thinkful
